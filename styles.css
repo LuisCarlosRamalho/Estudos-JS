@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+button{
+width: 150px;
+height: 40px;
+background: rgb(22, 111, 244);
+color: #fff;
+cursor: pointer;
+border-radius: 10px;
+}
+
+button:hover{
+    background: #010a18;
+    color: #fff;
+}
+
+.curso{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.Add-curso{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+
+
+.destaque{
+    background-color: #800 !important;
+    color: #fff !important;
+    border-color: #f00000 !important;
+}
+
+.c1{
+    background: #ccc;
+    color: #444;
+}
+
+.c2{
+    background: #444;
+    color: #cccc;
+}
+
+.caixa{
+    border: 4px solid #000;
+    background: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
+
+.testando{
+    border-color: red;
+    background: #de6a6a;
+    color: ghostwhite;
+}
